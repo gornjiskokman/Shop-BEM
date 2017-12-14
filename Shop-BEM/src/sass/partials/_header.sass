@@ -1,0 +1,144 @@
+.main-header__top
+  padding: 9px 0
+.main-header__top--info
+  color: $main-color
+  float: left
+.main-header__top--info:hover
+  color: $link-hover
+
+
+.main-header__top--login
+  color: $main-color
+  float: right
+  text-transform: uppercase
+.main-header__top--login
+  color: $link-hover
+
+
+
+.navbar
+  background-color: white
+  margin-bottom: 0
+  .container
+    position: relative
+  .navbar-toggle
+    margin-top: 14px
+    margin-right: 10px
+    float: left
+    padding: 0
+    border: none
+    .icon-bar
+      background-color: black
+      width: 20px
+      height: 4px
+      margin-top: 2px
+      border-right: 2px
+.logo
+  float: left
+  width: 58px
+  margin: 0
+  margin-top: 14px
+
+
+
+.search-cart-holder
+  position: absolute
+  right: 23px
+  top: 10px
+
+.search-cart-holder__search-field-form
+  right: 10px
+  top: -4px
+  display: inline-block
+  position: relative
+  height: 26px
+  width: 120px
+  padding-right: 26px
+  padding-left: 6px
+  border: 1px solid #ccc
+  border-radius: 0
+  font-size: 14px
+  line-height:  1.42857143
+  border-top: none
+  border-right: none
+  border-left: none
+  &:focus
+    border-color: black
+    outline: none
+    box-shadow: none
+
+
+.search-cart-holder__search-field-img
+  display: inline-block
+  width: 17px
+  position: absolute
+  right: 40px
+  top: 5px
+  cursor: pointer
+
+.search-cart-holder__cart
+  display: inline-block
+  position: relative
+.search-card-holder__img
+  width: 21px
+.search-cart-holder__badge
+  position: absolute
+  background-color: #CC0000
+  color: white
+  padding: 4px 6px 3px
+  bottom: -8px
+  right: -8px
+
+.navbar-right
+  li
+    a
+      border-bottom: 2px solid transparent
+      text-transform: uppercase
+      text-align: center
+      display: table
+      margin: 0 auto
+      &:hover
+        border-color: $nav-active
+      &:hover, &:focus
+        background-color: transparent
+@media (min-width: 400px)
+  .navbar
+    .navbar-toggle
+      margin-right: 15px
+  .search-cart-holder__search-field-form
+    width: 140px
+@media (min-width: 768px)
+  .logo
+    width: 80px
+    margin-top: 55px
+  .navbar-right
+    li
+      &:last-child
+        margin-right: 30px
+  .navbar
+    padding-bottom: 30px
+  .navbar-nav
+    margin-top: 45px
+@media (min-width: 992px)
+  .logo
+    margin-top: 10px
+  .navbar-right
+    li
+      &:last-child
+        margin-right: 30px
+
+  .navbar
+    padding-top: 30px
+  .navbar-nav
+    margin-top: 0
+    padding-right: 190px
+@media (min-width: 1200px)
+  .logo
+    width: 104px
+  .navbar-right
+    li
+      &:last-child
+        margin-right: 40px
+  .navbar
+    padding-bottom: 40px
+    padding-top: 40px

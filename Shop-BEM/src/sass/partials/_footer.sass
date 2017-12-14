@@ -1,0 +1,191 @@
+.main-footer
+  color: white
+  a
+    color: white
+    &:hover
+      text-decoration: underline
+  p
+    font-size: 15px
+
+.main-footer__top--title
+  text-transform: uppercase
+  font-size: 40px
+  margin-bottom: 20px
+
+.info
+  color: #598191
+  margin-bottom: 20px
+
+.main-footer__top
+  padding: 50px 0
+  background-color: #85C3DC
+.users
+  text-transform: uppercase
+  margin: 20px 0
+.users__list--item
+  margin-bottom: 10px
+.tags
+  text-transform: uppercase
+  margin: 20px 0
+.tags__list
+  margin-top: -10px
+.tags__list--item
+  float: left
+  &:not(:last-child)
+    margin-right: 10px
+  a
+    display: inline-block
+    padding: 6px 10px
+    background-color: #95D9F6
+    margin-bottom: 10px
+
+.main-footer__bottom
+  padding: 15px 0
+.main-footer__bottom-social-list
+  text-align: center
+
+.main-footer__botom-social-list--item
+
+  display: inline-block
+  margin-right: 5px
+
+.ks
+  background-image: url("img/krojacevaskola.png")
+  height: 40px
+  width: 40px
+  display: block
+  text-indent: -9999px
+
+
+.fb
+  background-image: url("img/facebook.png")
+  height: 40px
+  width: 40px
+  display: block
+  text-indent: -9999px
+
+.yt
+  background-image: url("img/youtube.png")
+  height: 40px
+  width: 40px
+  display: block
+  text-indent: -9999px
+
+.in
+  background-image: url("img/instagram.png")
+  height: 40px
+  width: 40px
+  display: block
+  text-indent: -9999px
+
+.tw
+  background-image: url("img/twitter.png")
+  height: 40px
+  width: 40px
+  display: block
+  text-indent: -9999px
+.main-footer__bottom-nav-list
+  float: right
+
+.main-footer__bottom-nav-list--item
+  float: left
+  margin-right: 20px
+  a
+    color: $link-color
+    padding: 0 0 3px
+    font-size: 12px
+    text-transform: uppercase
+.button__back-to-top
+  display: none
+  width: 40px
+  height: 40px
+  border: 1px solid white
+  text-indent: -9999px
+  position: absolute
+  bottom: 80px
+  right: 30px
+  cursor: pointer
+  -webkit-transition: all .3s
+  -moz-transition: all .3s
+  transition: all .3s
+  &::after
+    content: ""
+    display: block
+    position: absolute
+    width: 8px
+    height: 15px
+    background-image: url("img/arrow.png")
+    background-size: cover
+    margin: auto
+    left: 0
+    right: 0
+    bottom: 0
+    top: 0
+    transform: rotate(90deg)
+    &:hover
+      background-color: white
+    &::after
+      background-image: url("img/arrow-blue.png")
+@media (min-width: 768px)
+  .main-footer__bottom
+    position: relative
+  .main-footer__bottom-social-list
+    float: left
+  .main-footer__bottom-social-list-item
+    margin-right: 0
+  .ks
+    height: 20px
+    width: 20px
+    background-size: cover
+  .yt
+    height: 20px
+    width: 20px
+    background-size: cover
+
+  .fb
+    height: 20px
+    width: 20px
+    background-size: cover
+
+  .in
+    height: 20px
+    width: 20px
+    background-size: cover
+
+  .tw
+    height: 20px
+    width: 20px
+    background-size: cover
+  .button__back-to-top
+    display: block
+
+@media (min-width: 992px)
+  .tags__list--item
+    a
+      padding: 9px 13px
+  .main-footer__bottom
+    padding: 25px 0
+  .button__back-top
+    bottom: 100px
+
+
+
+@media (min-width: 1200px)
+  .users
+    margin-top: 40px
+  .main-footer__bottom
+    padding: 35px 0
+  .button__back-to-top
+    bottom: 120px
+
+
+@media (min-width: 1400px)
+  .button__back-to-top
+    border-color: #85C3DC
+    bottom: 30px
+    &::after
+      background-image: url("img/arrow-blue.png")
+    &:hover
+      background-color: #85C3DC
+      &::after
+        background-image: url("img/arrow.png")

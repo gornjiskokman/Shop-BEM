@@ -1,0 +1,72 @@
+.product
+  margin-bottom: 35px
+.product__hover-element-list
+  background-color: transparentize(#85C3DC, .05)
+  padding: 19px 0
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+  -webkit-transition: bottom .3s
+  -moz-transition: bottom .3s
+  transition: bottom .3s
+  &:hover
+    bottom: 0
+.product__hover-element-list--shop-item
+  float: left
+  width: 33.3333%
+  text-align: right
+  padding-right: 15px
+.product__hover-element-list--view-item
+  float: left
+  width: 33.3333%
+  text-align: center
+.product__hover-element-list--like-item
+  float: left
+  width: 33.3333%
+  padding-left: 15px
+.product__image-holder
+  display: block
+  margin-bottom: 15px
+  position: relative
+  overflow: hidden
+
+
+.product__image-holder--link
+  display: block
+  -webkit-transition: all .3s
+  -moz-transition: all .3s
+  transition: all .3s
+  &:hover
+    opacity: .6
+.product__title-holder
+  margin-bottom: 20px
+  padding: 0 15px
+.product__title
+  float: left
+  font-size: 16px
+  margin-bottom: 0
+
+.product__title-model
+
+  display: block
+.product__price-holder
+  display: block
+  float: right
+  color: black
+  text-transform: uppercase
+.product__colors-list
+  padding: 0 15px
+.product__colors-list--item
+  display: inline-block
+.product__colors-list--item-link
+  width: 16px
+  height: 16px
+  display: block
+  text-indent: -99999px
+@media (min-width: 992px)
+  .product__hover-element-list
+    bottom:  -61px
+  .product__image-holder
+    &:hover .product__hover-element-list
+      bottom: 0

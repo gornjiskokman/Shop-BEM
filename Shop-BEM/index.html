@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <!--Main-Header-->
+
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__top">
+                <div class="clearfix">
+                    <a href="tel:+3811155555555" class="main-header__top--info">+3811155555555</a>
+                    <a href="#" class="main-header__top--login">prijavi se</a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nabvar__header clearfix">
+                    <!--Dropdown button-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <!--Dropdown button END-->
+                    <!--Logo-->
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="brand logo" class="logo__img img-responsive">
+                        </a>
+                    </h1>
+                    <!--Logo END-->
+                    <!--navigation main-->
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#" class="active">Naslovana</a>
+                            </li>
+                            <li>
+                                <a href="#">Prodavnica</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">O nama</a>
+                            </li>
+                            <li>
+                                <a href="#">Kontakt</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--navigation main END-->
+                    <!--input field navigation-->
+                    <div class="search-cart-holder">
+                        <span class="search-cart-holder__search-field">
+                                <input type="text" class="search-cart-holder__search-field-form form-control">
+                                <img src="img/search-icon.png" alt="Search" class="search-cart-holder__search-field-img img-responsive">
+                            </span>
+                        <a href="#" class="search-cart-holder__cart">
+                            <img src="img/cart-icon.png" alt="Cart" class="search-card-holder__img img-responsive">
+                            <span class="search-cart-holder__badge badge">2</span>
+                        </a>
+                    </div>
+                    <!--input field navigation END-->
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!--Main-Header-END-->
+    <main>
+        <!--        intro Header-->
+        <header class="intro-header">
+            <!--    img Small devices-->
+            <img src="img/bacground-intro.jpg" alt="Background" class="intro-header__img img-responsive">
+            <!--img Small devices END-->
+
+            <!--slider-->
+
+            <div id="intro-slider" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#intro-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#intro-slider" data-slide-to="1"></li>
+                    <li data-target="#intro-slider" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/carousel/slide-1.jpg" alt="First slide">
+
+                    </div>
+                    <div class="item">
+                        <img src="img/carousel/slide-2.jpg" alt="Second slide">
+
+                    </div>
+                    <div class="item">
+                        <img src="img/carousel/slide-3.jpg" alt="Second slide">
+
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#intro-slider" role="button" data-slide="prev">
+                    <span class="arrow-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#intro-slider" role="button" data-slide="next">
+                    <span class="arrow-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <!--Slider END-->
+
+            <h2 class="frame">
+                <div class="frame__holder">
+
+                    <span class="frame__title">Shop</span> Kolekcija jesen / zima
+                </div>
+            </h2>
+
+        </header>
+
+        <!--   intro Header END-->
+        <!--        Main Container-->
+        <div class="container">
+            <!--    Products Section-->
+            <section class="product-sections">
+
+                <h2 class="product-sections__heading">Dobro došli u našu prodavnicu</h2>
+                <p class="product-sections__paragraph">Ovaj template je pravljen za kurseve Krojačeve škole.<br>Možete ga koristiti za vežbu i učenje, nije namenjen za komercijalnu upotrebu i spada u vlasništvo Krojačeve škole.</p>
+                <!--colections-->
+                <div class="product-section__colections-holder clearfix">
+                    <a href="#" class="product-section__colections-frame colections" data-kolekcija="female">
+                        <img src="img/female-products.jpg" alt="Female products" class="img-responsive">
+                        <span>Ženska kolekcija</span>
+                    </a>
+
+                    <a href="#" class="product-section__colections-frame colections" data-kolekcija="male"><img src="img/male-products.jpg" alt="Male products" class="img-responsive">
+                        <span>Muška kolekcija</span>
+                    </a>
+
+                </div>
+                <!--colections END-->
+                <!--                Products Header-->
+                <div class="products-holder">
+                    <div class="product-holder__header">
+                        <ul class="product-holder__header--list clearfix">
+                            <li>
+                              <a href="#" data-kolekcija="novaKolekcija" class="colections">Nova kolekcija</a>
+                            </li>
+                            <li>
+                                <a href="#" data-kolekcija="popular" class="colections">Popularno</a></li>
+                            <li>
+                                <a href="#" data-kolekcija="action" class="colections">Akcija</a></li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
+                <!--           Products Header END-->
+                <div id="mainRow" class="row">
+                </div>
+
+
+            </section>
+            <!--Product Setion END-->
+        </div>
+        <!--   Main Container END-->
+    </main>
+    <!-- Main footer -->
+    <footer class="main-footer">
+        <!-- Footer top -->
+        <div class="main-footer__top">
+            <div class="container">
+                <div class="row">
+                    <!-- Info -->
+                    <div class="col-sm-3">
+                        <h3 class="main-footer__top--title">Shop</h3>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est doloribus ex consequuntur necessitatibus sunt quis corporis eligendi unde facilis odit, molestias, voluptates ut magnam incidunt praesentium. Delectus repellendus illum error.</p>
+                        <p><a href="mailto:info@krojacevaskola.com">info@krojacevaskola.com</a></p>
+                        <p><a href="tel:+381 11 555 55 555">+381 11 555 55 555</a></p>
+                        <p>Nikolaja Ostrovskog 3, Zemun, Srbija</p>
+                    </div>
+                    <!-- Info END -->
+                    <!-- Users -->
+                    <div class="col-sm-3 col-md-offset-1 hidden-xs">
+
+                        <h4 class="users">Korisnici</h4>
+                        <ul class="users__list">
+                            <li class="users__list--item"><a href="#">Moj nalog</a></li>
+                            <li class="users__list--item"><a href="#">Kako kupiti</a></li>
+                            <li class="users__list--item"><a href="#">Kako kupiti</a></li>
+                            <li class="users__list--item"><a href="#">Vodič</a></li>
+                        </ul>
+                    </div>
+                    <!-- Users END -->
+                    <!-- Tags -->
+                    <div class="col-sm-6 col-md-5 hidden-xs">
+                        <h4 class="tags">Tagovi</h4>
+                        <ul class="tags__list">
+                            <li class="tags__list--item"><a href="#">Jakne</a></li>
+                            <li class="tags__list--item"><a href="#">Sportska oprema</a></li>
+                            <li class="tags__list--item"><a href="#">Jakne</a></li>
+                            <li class="tags__list--item"><a href="#">Zimska kolekcija</a></li>
+                            <li class="tags__list--item"><a href="#">Haljine</a></li>
+                            <li class="tags__list--item"><a href="#">Sportska oprema</a></li>
+                            <li class="tags__list--item"><a href="#">Jakne</a></li>
+                            <li class="tags__list--item"><a href="#">Sportska oprema</a></li>
+                        </ul>
+
+                    </div>
+                    <!-- Tags END -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer top END -->
+        <!-- Footer bottom -->
+        <div class="main-footer__bottom">
+            <div class="container clearfix">
+                <!-- Social Icons -->
+                <ul class="main-footer__bottom-social-list">
+                    <li class="main-footer__botom-social-list--item"><a href="#" class="ks" target="_blank">Krojačeva Škola</a></li>
+                    <li class="main-footer__botom-social-list--item"><a href="#" class="fb" target="_blank">Facebook</a></li>
+                    <li class="main-footer__botom-social-list--item"><a href="#" class="tw" target="_blank">Tweeter</a></li>
+                    <li class="main-footer__botom-social-list--item"><a href="#" class="in" target="_blank">Instagram</a></li>
+                    <li class="main-footer__botom-social-list--item"><a href="#" class="yt" target="_blank">YouTube</a></li>
+                </ul>
+                <!-- Social Icons END -->
+                <!-- Footer nav -->
+                <ul class="main-footer__bottom-nav-list nav clearfix hidden-xs">
+                    <li class="main-footer__bottom-nav-list--item"><a href="#">O nama</a></li>
+                    <li class="main-footer__bottom-nav-list--item"><a href="#">Uslovi korištenja</a></li>
+                    <li class="main-footer__bottom-nav-list--item"><a href="#">Novosti</a></li>
+                    <li class="main-footer__bottom-nav-list--item"><a href="#">Kontakt</a></li>
+                </ul>
+                <!-- Footer nav END -->
+                <!-- Back to top -->
+                <span id="back-to-top" class="button__back-to-top">Back to top</span>
+                <!-- Back to top END -->
+
+            </div>
+        </div>
+        <!-- Footer bootom END -->
+    </footer>
+    <script id="js-plpTemplate" type="text/template">
+      {{#products}}
+      <div class="col-xs-6 col-md-4 col-lg-3 clear">
+          <article class="product">
+              <div class="product__image-holder">
+                  <a href="#" class="product__image-holder--link">
+                      <!-- <img src="img/products/product1.jpg" alt="" class="img-responsive"> -->
+                      <img src="img/products/{{imgSrc}}.jpg" alt="{{productTitle}}" class="img-responsive">
+                  </a>
+                  <ul class="product__hover-element-list">
+                      <li class="product__hover-element-list--shop-item">
+                          <a href="#">
+                              <img src="img/shop-icon.png" alt="Cart icon">
+                          </a>
+                      </li>
+                      <li class="product__hover-element-list--view-item">
+                          <a href="#">
+                              <img src="img/view-icon.png" alt="View icon">
+                          </a>
+                      </li>
+                      <li class="product__hover-element-list--like-item">
+                          <a href="#">
+                              <img src="img/like-icon.png" alt="Like icon">
+                          </a>
+                      </li>
+                  </ul>
+                  </a>
+              </div>
+              <div class="product__title-holder clearfix">
+                  <h3 class="product__title">{{productTitle}}<span class="product__title-model">{{model}}</span></h3>
+                  <span class="product__price-holder">{{price}} rsd</span>
+
+              </div>
+
+              <ul class="product__colors-list color-picker">
+                {{#colors}}
+                  <li class="product__colors-list--item ">
+                  <a href="#" class="product__colors-list--item-link {{.}}"></a>
+                  </li>
+                {{/colors}}
+              </ul>
+
+          </article>
+
+      </div>
+      {{/products}}
+       </script>
+    <!-- main footer END -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="./node_modules/mustache/mustache.min.js">
+
+</script>
+    <script src="main.js"></script>
+</body>
+
+</html>
